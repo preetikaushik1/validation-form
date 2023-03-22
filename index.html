@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Validation Form</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <div class="outerbox">
+        <div class="form-text">JavaScript <span style="color: rgb(250, 35, 35);">Form Validation</span></div>
+        <div class="innerbox">
+            
+            <div class="left-box">
+                <img src="img1.jpeg" width="100%" style="border-radius: 5px 0 0 5px;"/>
+            </div>
+            <div class="right-box">
+                <h2>Get Started</h2>
+                <div class="acount">Already have an acount?</div>
+                <div class="login">Login</div>
+                <button class="up">Sign up</button>
+                <button class="up" style="background-color: #4267b2;color: white;">Sign up</button>
+                <h3 class="or">Or</h3>
+                <form onsubmit="event.preventDefault();form()">
+
+                    <input type="text" placeholder="Full Name" class="full" id="name"/><br/><br/>
+                    <div class="success"></div>
+                    <div class="error"></div>
+                    <input type="text" placeholder="Email" class="full" id="mail"/><br/><br/>
+                   
+                    <input type="text" placeholder="Password" class="full password"/><br/><br/>
+                    
+                    <button type="submit" class="full sub">Submit</button><br/>
+                    <div class="success"></div>
+                    <div class="error"></div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
