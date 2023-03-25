@@ -16,13 +16,14 @@ function form(){
 
     if(fullname_size < 3){
 
-
+        document.querySelector('.success').innerText = ''
          document.querySelector('.error').innerText = "Please type your full name?"
 
     }else if(email_size < 6){
         document.querySelector('.error').innerText = "This is not correct Email"
     }else if(password_size !==10){
 
+        document.querySelector('.success').innerText = ''
         document.querySelector('.error').innerText = 'This password should be 10 digit'
 
     }else{
